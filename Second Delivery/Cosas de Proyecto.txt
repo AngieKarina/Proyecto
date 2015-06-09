@@ -1,0 +1,2 @@
+border:2px dashed #0000FF;
+Para el menu que los bordes son asi - - - - - - - - 

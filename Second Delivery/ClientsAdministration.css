@@ -1,0 +1,39 @@
+body
+{
+background: #E6E6E6;
+}
+
+#clientes
+{
+ color:#D2691E;
+ border:3px dashed #D2691E;
+ background:white;
+}
+
+
+#clients
+{
+ vertical-align:top;
+}
+
+
+.newClient
+{
+background:green;
+color:white;
+position:fixed;
+right:50px;
+height:60px;
+width:160px;
+border-radius: 10%;
+/*Sombreado*/
+box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+font-size: 20pt;
+
+}
+
+ul#diseñoMedio li 
+{
+display: inline;
+color: #D2691E;
+}

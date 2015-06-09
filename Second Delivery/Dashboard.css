@@ -1,0 +1,30 @@
+ul#enlaceImagenes li
+ {
+  /* las mostraremos una al lado de la otra */
+  display: inline; 
+  margin-left:70px;
+  margin-right:70px; 
+}
+
+ul#nombresImagenes li
+{
+ display: inline; 
+ /*Para hacer espacio entre imagenes o lo que sea*/
+  margin-left:120px;
+  margin-right:120px;
+  color:#585858;
+}
+
+.enlaceImagen
+{
+  /* Quita lo subrayado del link */
+  text-decoration:none; 
+}
+
+center
+{
+color:#D2691E;
+}
+
+
+
