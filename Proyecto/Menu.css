@@ -3,27 +3,26 @@ body
 background: #E6E6E6;
 }
 
-ul#EnlancesMenu li {
+ul#nombresMenu li 
+{
   /* las mostraremos una al lado de la otra */
   display: inline;
-  border:2px dashed white;
+  font-size:30px;
   padding: 5px;
   margin-left:40px;
   margin-right:40px;
 }
 
-.Enlace
+.clientes , .hambas, .invoices
 {
+color: white;
+text-decoration:none;  
+border:2px dashed white;
 color: white;
 text-decoration:none;  
 }
 
-.EnlaceImagen
-{
-text-decoration:none;  
-}
-
-#imagen
+#imagenMenu
 {
 display:scroll;
 position:fixed;
@@ -35,12 +34,13 @@ top:1.35em;
 #nombre
 {
  vertical-align: top;
+ font-size:25px;
 }
 
 
 
-#cabecera{
-    /*linea azul que separa logo*/
+#cabecera
+{
     border: 4px solid #333;
     padding-top: 8px;
     height:90px;
@@ -48,30 +48,5 @@ top:1.35em;
 	color:#FFFFFF;
 	background-color: #D2691E;
 	border-color: black;
-	
-
+	border-radius: 10px; 
 }
-
-ul#EnlaceImagenes li {
-  /* las mostraremos una al lado de la otra */
-  display: inline; 
-  margin-left:70px;
-  margin-right:70px;
-  
-}
-
-ul#NImagenes li
-{
- display: inline; 
- /*Para hacer espacio entre imagenes o lo que sea*/
-  margin-left:120px;
-  margin-right:120px;
-  color:#585858;
-}
-
-center{
-color:#D2691E;
-}
-
-
-

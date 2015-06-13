@@ -1,0 +1,70 @@
+#clientes
+{
+ color:#D2691E;
+ border:3px dashed #D2691E;
+ background:white;
+}
+
+
+#clients
+{
+ vertical-align:top;
+}
+
+
+.newClient
+{
+background:#e9bd15;
+color:white;
+position:fixed;
+right:50px;
+height:60px;
+width:160px;
+border-radius: 10px; 
+font-size: 20pt;
+font-weight:bold;
+}
+
+ul#diseñoMedio li 
+{
+display: inline;
+color: #D2691E;
+margin-top:25px;
+}
+
+#actions
+{
+width:25px; 
+height:25px;
+margin-left:25%;
+
+}
+
+#link
+{
+text-decoration:none;
+}
+
+.col
+{
+ background-color: green; 
+ color:white;
+ font-size:25px;
+ height:65px;
+ /*Las orillas redondas*/
+ border-radius: 10px; 
+}
+
+.bodyTable
+{
+border:none;
+font-size:25px;
+font-weight: bold;
+}
+
+.table
+{
+margin: auto;
+width:80%;
+height:80%;
+}

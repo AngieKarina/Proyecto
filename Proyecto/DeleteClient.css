@@ -1,0 +1,44 @@
+p
+{
+text-align:center;
+font-weight:bold;
+font-size:25px;
+
+}
+
+/*
+ul#yesNo li 
+{
+color:white;
+height:50px;
+width:80px;
+border-radius: 10px; 
+font-size: 20pt;
+margin-left:150px;
+font-weight:bold;
+}
+*/
+
+.yes
+{
+background:green;
+color:white;
+height:50px;
+width:80px;
+border-radius: 10px; 
+font-size: 20pt;
+margin-left:100px;
+font-weight:bold;
+}
+
+.no
+{
+background:red;
+color:white;
+height:50px;
+width:80px;
+border-radius: 10px; 
+font-size: 20pt;
+margin-left:550px;
+font-weight:bold;
+}

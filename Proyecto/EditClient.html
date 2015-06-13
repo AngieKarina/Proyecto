@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+			<link rel="stylesheet" href="EditClient.css">
+			<link rel="stylesheet" href="Menu.css">
+			<link rel="stylesheet" href="ClientsAdministration.css">
+			
+
+			<meta charset="UTF-8">
+	
+	</head>
+	
+		<body>
+		
+				<section id ="cabecera">
+						<!--Menu-->
+						
+							<ul id="nombresMenu">
+								<h1> 	
+									<li id="clientes">CLIENTS</li>
+									<li class="hambas">HAMBAS</li>
+									<li class="invoices">INVOICES</li>
+								</h1>
+							</ul> 
+						
+
+
+						<section id="imagenMenu">
+							<b id="nombre">Hi Angie González &nbsp &nbsp </b> 
+							<img src="Hola1.png"/>
+						</section>
+
+				</section>
+                
+			 
+				<ul id="diseñoMedio" method="link" action="EditClient.html">
+					<h1>   
+						<li><img src="clientsPequeño.png"/></li>
+						<li id="clients">EDIT CLIENT</li>
+						<li> <a href="newClients.html"><input type="submit"  name="submit" value="New Client" class="newClient"> </a> </li>  
+					</h1>
+				</ul> 
+						
+							<!--Table de Editar Clientes-->
+			
+				<form class="editarCliente">
+						
+						<label >First Name</label>
+						<br>
+							<input  name="nombre"  id="nombreCliente" placeholder="Yamna"> 
+						</br>
+						
+							
+								<label >Last Name</label> 
+								<br>
+									<input name="segundoNombre"  id="segundoNombre" placeholder="Luna"> 
+								</br>
+							
+							
+							<label >ID</label> 
+								<br>
+									<input name="ID"  id="ID" placeholder="2-746-539"> 
+								</br>
+								
+							<br>
+							<a id="cancelar" href ="ClientsAdministration.html">Cancel</a>         
+							<a id="link" href=""><input type="submit"  name="submit" value="Save" id="save"> </a> 
+							</br>
+									
+				</form>
+						
+						
+			
+		
+		</body>
+
+</html>

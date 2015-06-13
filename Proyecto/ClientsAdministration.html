@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+    <html>
+		<head>
+
+			<link rel="stylesheet" href="ClientsAdministration.css">
+			<link rel="stylesheet" href="Menu.css">
+
+			<meta charset="UTF-8">
+
+		</head>
+
+			<body>
+
+				<section id ="cabecera">
+						<!--Menu-->
+						
+							<ul id="nombresMenu">
+								<h1> 	
+									<li id="clientes">CLIENTS</li>
+									<li class="hambas">HAMBAS</li>
+									<li class="invoices">INVOICES</li>
+								</h1>
+							</ul> 
+						
+
+
+						<section id="imagenMenu">
+							<b id="nombre">Hi Angie González &nbsp &nbsp </b> 
+							<img src="Hola1.png"/>
+						</section>
+
+				</section>
+                
+			 
+						<ul id="diseñoMedio" method="link" action="ClientsAdministration.html">
+							<h1>   
+								<li><img src="clientsPequeño.png"/></li>
+								<li id="clients">CLIENTS</li>
+								<li> <a href="newClients.html"><input type="submit"  name="submit" value="New Client" class="newClient"> </a> </li>  
+							</h1>
+						</ul> 
+						
+						
+						<table class="table">
+
+							<thead>
+							   <tr>
+								 <th class="col">ID</th>
+								 <th class="col">Full Name</th>
+								 <th class="col">Actions</th>
+							   </tr>
+							</thead>
+
+							<tbody class="bodyTable">
+							   <tr>
+								    <td>2-746-539</td>
+									<td>Yamna Luna</td>
+									<td><a id="link" href ="EditClient.html"><img src="L.ico" id="actions"/></a><a  id="link"  href ="DeleteClient.html"> <img src="D.ico" id="actions"/></a></td>
+							 </tr>
+							
+													
+							   <tr>
+									<td>2-535-432</td>
+								    <td>Bladimir Arroyo</td>
+									<td><a id="link" href ="EditClientBladimir.html"><img src="L.ico" id="actions"/></a><a id="link" href ="DeleteClientBladimir.html"> <img src="D.ico" id="actions"/></a></td>
+							   </tr>
+							</tbody>
+							 
+					    </table>
+				 
+
+			</body>
+    </html>

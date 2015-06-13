@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+	
+		 <link rel="stylesheet" href="Menu.css">
+	     <link rel="stylesheet" href="newClients.css">
+	     <link rel="stylesheet" href="ClientsAdministration.css">
+		 
+		 <meta charset="UTF-8">	
+	
+	</head>
+	
+		<body>
+		
+			<section id ="cabecera">
+						<!--Menu-->
+						
+							<ul id="nombresMenu">
+								<h1> 	
+									<li id="clientes">CLIENTS</li>
+									<li class="hambas">HAMBAS</li>
+									<li class="invoices">INVOICES</li>
+								</h1>
+							</ul> 
+						
+
+
+						<section id="imagenMenu">
+							<b id="nombre">Hi Angie González &nbsp &nbsp  &nbsp </b> 
+							<img src="Hola1.png"/>
+						</section>
+
+				</section>
+				
+				<ul id="diseñoMedio" method="link" action="newClients.html">
+							<h1>   
+								<li><img src="clientsPequeño.png"/></li>
+								<li id="clients">NEW CLIENTS</li>
+								<li> <a href="newClients.html"><input type="submit"  name="submit" value="New Client" class="newClient"> </a> </li>  
+							</h1>
+				</ul> 
+				
+			<!--Table de Nuevos Clientes-->
+			
+			<section class="agregarCliente">
+					
+					<label >First Name</label>
+					<br>
+						<input  name="nombre"  id="nombreCliente" placeholder="Enter Nombre"> 
+					</br>
+					
+						
+							<label >Last Name</label> 
+							<br>
+								<input name="segundoNombre"  id="segundoNombre" placeholder="Enter Cedula"> 
+							</br>
+					    
+						
+						<label >ID</label> 
+							<br>
+								<input name="ID"  id="ID" placeholder="Enter ID"> 
+							</br>
+							
+						
+							<label >Phone</label> 
+							<br>
+								<input name="telefono"  id="telefono" placeholder="Enter phone"> 
+							</br>
+						<br>
+					    <a id="cancelar" href ="ClientsAdministration.html">Cancel</a>         
+						<a id="link" href=""><input type="submit"  name="submit" value="Save" id="save"> </a> 
+						</br>
+								
+			</section>
+			
+			
+			<!-- Asi se hace un datalist
+			<datalist id="lista">
+ <option value="0" label="Hola">
+ <option value="2" label="Hola">
+ <option value="4" label="Hola">
+ <option value="6" label="Hola">
+ <option value="8" label="Hola">
+ <option value="10" label="Hola">
+</datalist>
+
+<input name="lista" list="lista" /> -->
+			
+				
+		
+		</body>
+
+</html>

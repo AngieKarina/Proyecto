@@ -10,9 +10,11 @@ ul#nombresImagenes li
 {
  display: inline; 
  /*Para hacer espacio entre imagenes o lo que sea*/
-  margin-left:120px;
-  margin-right:120px;
+  margin-left:100px;
+  margin-right:100px;
   color:#585858;
+  font-size:40px;
+  
 }
 
 .enlaceImagen
@@ -21,9 +23,10 @@ ul#nombresImagenes li
   text-decoration:none; 
 }
 
-center
+#bienvenida
 {
 color:#D2691E;
+text-align:center;
 }
 
 
