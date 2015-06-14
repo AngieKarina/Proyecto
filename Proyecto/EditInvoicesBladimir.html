@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+	
+	    <link rel="stylesheet" href="InvoicesAdministration.css">
+		<link rel="stylesheet" href="Menu.css">
+		<link rel="stylesheet" href="EditInvoices.css">
+		
+		<meta charset="UTF-8">
+	
+	</head>
+	
+		<body>
+			
+			<!--Menu-->
+			<section id ="cabecera">
+				
+				
+					<ul id="nombresMenu">
+						<h1> 	
+							<li class="clientes"><a id="link" href="ClientsAdministration.html">CLIENTS</a></li>
+							<li class="hambas"><a id="link" href=".html">HAMBAS</a></li>
+							<li id="invoices">INVOICES</li>
+						</h1>
+					</ul> 
+				
+
+				<section id="imagenMenu">
+					<b id="nombre">Hi Angie González &nbsp &nbsp </b> 
+					<img src="Hola1.png"/>
+				</section>
+
+		</section>
+		
+		<ul id="diseñoMedio" method="link" action="InvoicesAdministration.html">
+					<h1>   
+						<li><img src="invoicePequeño.png"/></li>
+						<li id="invoice">EDIT INVOICES</li>
+						<li> <a href="newInvoices.html"><input type="submit"  name="submit" value="New Invoice" class="newInvoice"> </a> </li>  
+					</h1>
+		</ul> 
+		
+		<!--Final del Menu-->
+		
+		<datalist id="listaClientes">
+		<option value="Yamna Luna">
+		<option value="Bladimir Arroyo">
+		</datalist>
+		
+	
+		
+	    <!--Formulario de Editar Fatura-->
+		<form class="editarFactura">
+						
+						<label >Clients</label>
+					    <br>
+							<input name="nombreCliente" list="listaClientes" id="nombreCliente" value="Bladimir Arroyo">
+						</br>
+						
+						<label>Job Description</label>
+						<br>
+						    <textarea  name="descripcion" id="descripcion" >Hello</textarea>
+						</br>
+						
+								<label >Date</label> 
+								<br>
+									<input type="date" name="fecha" id="fecha" value="2013-10-08">
+								</br>
+							
+							
+							<label >Amount</label> 
+								<br>
+									<input type="number" min="1"  name="monto" id="monto" value="500000">
+								</br>
+								
+							<br>
+							<a id="cancelar" href ="InvoicesAdministration.html">Cancel</a>         
+							<a id="link" href=""><input type="submit"  name="submit" value="Save" id="save"> </a> 
+							</br>
+									
+				</form>
+		
+		
+		
+			
+			
+		
+		</body>
+
+
+</html>

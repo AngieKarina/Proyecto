@@ -1,0 +1,83 @@
+<html>
+	<head>
+		 <link rel="stylesheet" href="Menu.css">
+	     <link rel="stylesheet" href="InvoicesAdministration.css">
+	     <link rel="stylesheet" href="newInvoices.css">
+		 
+		 <meta charset="UTF-8">	
+	
+	</head>
+	
+		<body>
+		<section id ="cabecera">
+						<!--Menu-->
+						
+							<ul id="nombresMenu">
+								<h1> 	
+									<li class="clientes"><a id="link" href="ClientsAdministration.html">CLIENTS</a></li>
+									<li class="hambas"><a id="link" href=".html">HAMBAS</a></li>
+									<li id="invoices">INVOICES</li>
+								</h1>
+							</ul> 
+						
+
+
+						<section id="imagenMenu">
+							<b id="nombre">Hi Angie González &nbsp &nbsp  &nbsp </b> 
+							<img src="Hola1.png"/>
+						</section>
+
+				</section>
+				
+				<ul id="diseñoMedio" method="link" action="newClients.html">
+							<h1>   
+								<li><img src="clientsPequeño.png"/></li>
+								<li id="invoice">NEW INVOICES</li>
+								<li> <a href="newInvoices.html"><input type="submit"  name="submit" value="New Invoices" class="newInvoice"> </a> </li>  
+							</h1>
+				</ul> 
+				
+				<!--Termina el Menu-->
+				
+				
+		<datalist id="listaClientes">
+		<option value="Yamna Luna">
+		<option value="Bladimir Arroyo">
+		</datalist>
+		
+	
+		
+	    <!--Formulario de Editar Fatura-->
+		<form class="agregarFactura">
+						
+						<label >Clients</label>
+					    <br>
+							<input name="nombreCliente" list="listaClientes" id="nombreCliente" placeholder="Selection a Clients">
+						</br>
+						
+						<label>Job Description</label>
+						<br>
+						    <textarea  name="descripcion" placeholder="Enter Description" id="descripcion" placeholder="Enter Description"></textarea>
+						</br>
+						
+								<label >Date</label> 
+								<br>
+									<input type="date" name="fecha" id="fecha">
+								</br>
+							
+							
+							<label >Amount</label> 
+								<br>
+									<input type="number" min="1"  name="monto" id="monto" placeholder="Enter Amount">
+								</br>
+								
+							<br>
+							<a id="cancelar" href ="InvoicesAdministration.html">Cancel</a>         
+							<a id="link" href=""><input type="submit"  name="submit" value="Save" id="save"> </a> 
+							</br>
+									
+		</form>
+		
+		</body>
+
+</html>

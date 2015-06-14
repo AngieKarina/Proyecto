@@ -1,0 +1,39 @@
+.agregarFactura
+{
+   font-size:25px;
+   margin:auto;
+   margin-left:350px;
+   margin-top:-60px;
+   font-weight:bold;
+}
+
+#nombreCliente , #descripcion,#fecha,#monto
+{
+height:30px;
+width:700px;
+}
+
+#cancelar
+{
+color:red;
+font-weight:bold;
+}
+
+#save
+{
+background:green;
+color:white;
+height:50px;
+width:80px;
+border-radius: 10px; 
+font-size: 20pt;
+margin-left:550px;
+font-weight:bold;
+
+}
+
+#link
+{
+text-decoration:none;
+}
+

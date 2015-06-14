@@ -11,15 +11,16 @@
 	</head>
 	
 		<body>
-		
+				
+				<!--Menu-->
 				<section id ="cabecera">
-						<!--Menu-->
+						
 						
 							<ul id="nombresMenu">
 								<h1> 	
 									<li id="clientes">CLIENTS</li>
-									<li class="hambas">HAMBAS</li>
-									<li class="invoices">INVOICES</li>
+									<li class="hambas"><a id="link" href=".html">HAMBAS</a></li>
+									<li class="invoices"><a id="link" href="InvoicesAdministration.html">INVOICES</a></li>
 								</h1>
 							</ul> 
 						
@@ -40,26 +41,28 @@
 						<li> <a href="newClients.html"><input type="submit"  name="submit" value="New Client" class="newClient"> </a> </li>  
 					</h1>
 				</ul> 
+				
+				<!--Final del Menu-->
 						
-							<!--Table de Editar Clientes-->
+							<!--Formulario de Editar Clientes-->
 			
 				<form class="editarCliente">
 						
 						<label >First Name</label>
 						<br>
-							<input  name="nombre"  id="nombreCliente" placeholder="Yamna"> 
+							<input  name="nombre"  id="nombreCliente"  value="Yamna"> 
 						</br>
 						
 							
 								<label >Last Name</label> 
 								<br>
-									<input name="segundoNombre"  id="segundoNombre" placeholder="Luna"> 
+									<input name="segundoNombre"  id="segundoNombre" value="Luna"> 
 								</br>
 							
 							
 							<label >ID</label> 
 								<br>
-									<input name="ID"  id="ID" placeholder="2-746-539"> 
+									<input name="ID"  id="ID" value="2-746-539"> 
 								</br>
 								
 							<br>
