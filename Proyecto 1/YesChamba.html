@@ -4,6 +4,7 @@
 
 			<link rel="stylesheet" href="Administration.css">
 			<link rel="stylesheet" href="Menu.css">
+	
 
 			<meta charset="UTF-8">
 
@@ -17,8 +18,8 @@
 							<ul id="nombresMenu">
 								<h1>
 									<li><a id="home" href ="Dashboard.html"> <img src="Home.png"/><li>
-									<li id="activo">CLIENTS</li>
-									<li class="activo"><a id="link" href="ChambasAdministration.html">HAMBAS</a></li>
+									<li class="activo"><a id="link" href="ClientsAdministration.html">CLIENTS</a></li>
+									<li id="activo">HAMBAS</li>
 									<li class="activo"><a id="link" href="InvoicesAdministration.html">INVOICES</a></li>				       
 								</h1>
 							</ul> 
@@ -32,12 +33,14 @@
 
 				</section>
                 
-			 
+						
+						<h1 id="mensaje">Successfully delete the hamba </h1>
+						
 						<ul id="diseñoMedio" method="link" action="ClientsAdministration.html">
 							<h1>   
-								<li><img src="clientsPequeño.png"/></li>
-								<li id="nombreAdministration">CLIENTS</li>
-								<li> <a href="newClients.html"><input type="submit"  name="submit" value="New Client" class="new"> </a> </li>  
+								<li><img src="folderPequeño.png"/></li>
+								<li id="nombreAdministration">HAMBAS</li>
+								<li> <a href="newHamba.html"><input type="submit"  name="submit" value="New Hamba" class="new"> </a> </li>  
 							</h1>
 						</ul> 
 						
@@ -46,28 +49,33 @@
 
 							<thead>
 							   <tr>
-								 <th class="col">ID</th>
-								 <th class="col">Full Name</th>
-								 <th class="col">Phone</th>
+								 <th class="col">Client</th>
+								 <th class="col">Job Description</th>
+								 <th class="col">Date</th>
+								 <th class="col">Note</th>
 								 <th class="col">Actions</th>
 							   </tr>
 							</thead>
 
 							<tbody class="bodyTable">
 							   <tr>
-								    <td>2-746-539</td>
 									<td>Yamna Luna</td>
-									<td>2477-73-75</td>
-									<td><a id="link" href ="EditClient.html"><img src="L.ico" id="actions"/></a><a  id="link"  href ="DeleteClient.html"> <img src="D.ico" id="actions"/></a></td>
+								    <td>Hello</td>
+									<td>08-10-2014</td>
+									<td></td>
+									<td><a id="link" href =""><img src="L.ico" id="actions"/></a><a  id="link"  href =""> <img src="D.ico" id="actions"/></a></td>
 							 </tr>
 						
 						
 							 <tr>
-								<td>2-535-432</td>
 								<td>Bladimir Arroyo</td>
-								<td>2477-71-74</td>
-								<td><a id="link" href ="EditClientBladimir.html"><img src="L.ico" id="actions"/></a><a id="link" href ="DeleteClientBladimir.html"> <img src="D.ico" id="actions"/></a></td>
+								<td>Hello</td>
+								<td>08-10-2014</td>
+								<td></td>
+								<td><a id="link" href =""><img src="L.ico" id="actions"/></a><a id="link" href =""> <img src="D.ico" id="actions"/></a></td>
 							 </tr>
+							 
+							
 							   
 							</tbody>
 							 

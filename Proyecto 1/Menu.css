@@ -9,18 +9,19 @@ ul#nombresMenu li
   display: inline;
   font-size:30px;
   padding: 5px;
-  margin-left:40px;
-  margin-right:40px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:50px;
+
 }
 
-.clientes , .hambas, .invoices
+.clientes , .hambas, .invoices 
 {
 color: white;
 text-decoration:none;  
 border:2px dashed white;
-color: white;
-text-decoration:none;  
 }
+
 
 #imagenMenu
 {
@@ -38,7 +39,6 @@ top:1.35em;
 }
 
 
-
 #cabecera
 {
     border: 4px solid #333;
@@ -49,4 +49,10 @@ top:1.35em;
 	background-color: #D2691E;
 	border-color: black;
 	border-radius: 10px; 
+}
+
+#home
+{
+text-decoration:none;
+color:#D2691E;
 }

@@ -1,4 +1,4 @@
-#clientes
+#activo
 {
  color:#D2691E;
  border:3px dashed #D2691E;
@@ -6,20 +6,20 @@
 }
 
 
-#clients
+#nombreAdministration
 {
  vertical-align:top;
 }
 
 
-.newClient
+.new
 {
 background:#e9bd15;
 color:white;
 position:fixed;
 right:50px;
 height:60px;
-width:160px;
+width:180px;
 border-radius: 10px; 
 font-size: 20pt;
 font-weight:bold;

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="InvoicesAdministration.css">
+		<link rel="stylesheet" href="Administration.css">
 		<link rel="stylesheet" href="Menu.css">
-		<link rel="stylesheet" href="DeleteClient.css">
+		<link rel="stylesheet" href="Delete.css">
 		
 		<meta charset="UTF-8">
 	
@@ -15,10 +15,11 @@
 				<!--Menu-->
 				
 					<ul id="nombresMenu">
-						<h1> 	
-							<li class="clientes"><a id="link" href="ClientsAdministration.html">CLIENTS</a></li>
-							<li class="hambas"><a id="link" href=".html">HAMBAS</a></li>
-							<li id="invoices">INVOICES</li>
+						<h1>
+							<li><a id="home" href ="Dashboard.html"> <img src="Home.png"/><li>
+							<li class="activo"><a id="link" href="ClientsAdministration.html">CLIENTS</a></li>
+							<li class="activo"><a id="link" href="ChambasAdministration.html">HAMBAS</a></li>
+							<li id="activo">INVOICES</li>
 						</h1>
 					</ul> 
 				
@@ -35,8 +36,8 @@
 				<ul id="diseñoMedio" method="link" action="DeleteClient.html">
 					<h1>   
 						<li><img src="clientsPequeño.png"/></li>
-						<li id="invoice">DELETE INVOICES</li>
-						<li> <a href="newInvoices.html"><input type="submit"  name="submit" value="New Invoices" class="newInvoice"> </a> </li>  
+						<li id="nombreAdministration">DELETE INVOICES</li>
+						<li> <a href="newInvoices.html"><input type="submit"  name="submit" value="New Invoices" class="new"> </a> </li>  
 					</h1>
 				</ul> 
 				

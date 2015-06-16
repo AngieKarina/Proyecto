@@ -1,4 +1,4 @@
-.agregarCliente
+.agregar
 {
    font-size:25px;
    margin:auto;
@@ -7,7 +7,7 @@
    font-weight:bold;
 }
 
-#nombreCliente , #segundoNombre,#ID,#telefono
+#nombreCliente , #segundoNombre,#ID,#telefono , #descripcion,#fecha,#monto , #nota
 {
 height:30px;
 width:700px;

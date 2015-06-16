@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+	
+		 <link rel="stylesheet" href="Menu.css">
+	     <link rel="stylesheet" href="new.css">
+	     <link rel="stylesheet" href="Administration.css">
+		 
+		 <meta charset="UTF-8">	
+	
+	</head>
+	
+		<body>
+		
+			<section id ="cabecera">
+						<!--Menu-->
+						
+							<ul id="nombresMenu">
+								<h1>
+									<li><a id="home" href ="Dashboard.html"> <img src="Home.png"/><li>
+									<li class="activo"><a id="link" href="ClientsAdministration.html"/>CLIENTS</li>
+									<li id="activo">HAMBAS</li>
+									<li class="activo"><a id="link" href="InvoicesAdministration.html"/>INVOICES</a></li>
+								</h1>
+							</ul> 
+						
+
+
+						<section id="imagenMenu">
+							<b id="nombre">Hi Angie González &nbsp &nbsp  &nbsp </b> 
+							<img src="Hola1.png"/>
+						</section>
+
+				</section>
+				
+				<ul id="diseñoMedio" method="link" action="newClients.html">
+							<h1>   
+								<li><img src="clientsPequeño.png"/></li>
+								<li id="nombreAdministration">EDIT HAMBAS</li>
+								<li> <a href="newHamba.html"><input type="submit"  name="submit" value="New Hamba" class="new"> </a> </li>  
+							</h1>
+				</ul> 
+				
+			<!--termina el menu-->	
+				
+			<datalist id="listaClientes">
+			<option value="Yamna Luna">
+			<option value="Bladimir Arroyo">
+			<option value="Angie Gonzalez">
+			</datalist>
+				
+			<!--Table de Nuevos Hamba-->
+			
+			<section class="agregar">
+		
+						<label >Clients</label>
+					    <br>
+							<input name="nombreCliente" list="listaClientes" id="nombreCliente" value="Angie Gonzalez">
+						</br>
+							
+						<label>Job Description</label>
+						<br>
+						    <textarea  name="descripcion" value="Hello1" id="descripcion" ></textarea>
+						</br>
+						
+						<label >Date</label> 
+						<br>
+							<input type="date" name="fecha" id="fecha" value:"08-10-2014">
+						</br>
+							
+						
+						<label >Note</label> 
+						<br>
+						    <textarea  name="nota" placeholder="Enter Note" id="nota"></textarea>
+						</br>
+						
+						<br>
+					    <a id="cancelar" href ="CancelaChamba.html">Cancel</a>         
+						<a id="link" href="EditadoChamba.html"><input type="submit"  name="submit" value="Save" id="save"> </a> 
+						</br>
+								
+			</section>
+			
+			
+
+				
+		
+		</body>
+
+</html>
