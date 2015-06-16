@@ -1,4 +1,10 @@
-#activo
+.activo
+{
+ border:3px dashed white;
+ background: #D2691E;
+}
+
+#A
 {
  color:#D2691E;
  border:3px dashed #D2691E;
@@ -37,8 +43,10 @@ margin-top:25px;
 width:25px; 
 height:25px;
 margin-left:25%;
-
 }
+
+
+
 
 #link
 {
