@@ -4,7 +4,7 @@
    margin:auto;
    margin-left:350px;
    margin-top:-50px;
-   font-weight:bold;
+   font-family:"Cooper Black";
 }
 
 #nombreCliente , #segundoNombre,#ID,#telefono ,      #descripcion,#fecha,#monto
@@ -12,15 +12,14 @@
 height:30px;
 width:700px;
 font-size:20px;
+font-family:"Cooper Black";
 }
-
-
 
 
 #cancelar
 {
 color:red;
-font-weight:bold;
+font-family:"Cooper Black";
 }
 
 #save
@@ -32,7 +31,7 @@ width:80px;
 border-radius: 10px; 
 font-size: 20pt;
 margin-left:550px;
-font-weight:bold;
+font-family:"Cooper Black";
 
 }
 

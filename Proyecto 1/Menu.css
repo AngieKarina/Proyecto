@@ -1,6 +1,7 @@
 body
 {
 background: #E6E6E6;
+font-family:"Cooper Black";
 }
 
 ul#nombresMenu li 
@@ -12,7 +13,6 @@ ul#nombresMenu li
   margin-left:20px;
   margin-right:20px;
   margin-top:50px;
-
 }
 
 .clientes , .hambas, .invoices 
@@ -53,6 +53,7 @@ top:1.35em;
 
 #home
 {
+cursor:pointer;
 text-decoration:none;
 color:#D2691E;
 }

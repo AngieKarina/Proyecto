@@ -1,3 +1,8 @@
+body
+{
+font-family:"Cooper Black";
+}
+
 .agregar
 {
    font-size:25px;
@@ -5,18 +10,23 @@
    margin-left:350px;
    margin-top:-40px;
    font-weight:bold;
+   cursor:pointer;
+   font-family:"Cooper Black";
 }
 
 #nombreCliente , #segundoNombre,#ID,#telefono , #descripcion,#fecha,#monto , #nota
 {
 height:30px;
 width:700px;
+font-size:17px;
+font-family:"Cooper Black";
 }
 
 #cancelar
 {
 color:red;
-font-weight:bold;
+font-family:"Cooper Black";
+
 }
 
 #save
@@ -28,7 +38,8 @@ width:80px;
 border-radius: 10px; 
 font-size: 20pt;
 margin-left:550px;
-font-weight:bold;
+font-family:"Cooper Black";
+cursor:pointer; 
 
 }
 

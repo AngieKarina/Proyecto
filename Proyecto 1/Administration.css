@@ -1,3 +1,9 @@
+body
+{
+font-family:"Cooper Black";
+}
+
+
 .activo
 {
  border:3px dashed white;
@@ -25,10 +31,12 @@ color:white;
 position:fixed;
 right:50px;
 height:60px;
-width:180px;
+width:195px;
 border-radius: 10px; 
 font-size: 20pt;
 font-weight:bold;
+cursor:pointer;
+font-family:"Cooper Black";
 }
 
 ul#diseñoMedio li 
@@ -68,7 +76,7 @@ color:white;
 {
 border:none;
 font-size:25px;
-font-weight: bold;
+font-family:"Cooper Black";
 }
 
 .table
