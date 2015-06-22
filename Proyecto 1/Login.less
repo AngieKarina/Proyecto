@@ -1,0 +1,131 @@
+@color_body_gris: #E6E6E6;
+@color_naranja:#D2691E;
+@color_blanco:#FFFFFF;
+@color_rosado_palido:#FFDAB9;
+
+@border:5px;
+@font:10px;
+@letra:"Cooper Black";
+@margin:10px;
+@padding:5px;
+@size:10px;
+
+
+
+body
+{
+background: @color_body_gris;
+font-family:@letra;
+}
+
+
+#cabecera
+{
+    border-bottom: @border solid @color_naranja;
+    padding-top: @padding;
+	/*70*/
+    height:(@size * 7);
+	/*50*/
+    line-height:(@size * 5);
+	color:@color_blanco;
+    text-align:center;
+	font-size: (@font * 2 + 4)
+	 
+}
+
+#nombre
+{
+	color:@color_naranja;
+	text-align:center;
+	margin-top: (@margin*9);
+
+
+}
+
+.boton
+{
+background: @color_naranja;
+color:@color_blanco;
+/*40*/
+height: (@size *4);
+/*60*/
+width: (@size * 6);
+border-radius:(@border * 2); 
+font-size: (@font + 5);
+//220px
+margin-left:(@margin*20 + 20);
+font-family:@letra;
+cursor:pointer;
+}
+
+
+/*--Informacion del Medio-->*/
+#contenido
+{
+    background-color:@color_naranja;
+    /*Margen de sombra alrededor del contenedor 8px negro , tamaño en las orillas*/
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    /*Las 3 líneas siguientes, sirven para el borde redondeado*/
+	/*5*/
+    -webkit-border-radius:(@border + 5);
+	/*10*/
+    -moz-border-radius:(@border * 2);
+     border-radius:(@border * 2);
+	
+}
+
+#pie
+{
+    border-top: (@border - 5) solid @color_naranja;
+    color:#fff;
+	/*11*/
+    font-size: (@font + 1);
+	/*25*/
+    height: (@size * 2 + 5);
+	/*24*/
+    line-height: (@size * 2 + 4);
+    text-align: center;
+}
+ 
+
+/*--Para que quede centrado todo-->*/
+#envoltura
+{
+	
+    border-top: (@border - 5) solid @color_naranja;
+    /*La posicion del form*/
+    position:absolute;
+    /*centrado en la pantalla*/
+    left:50%;
+    top:50%;
+	/*-175*/
+    margin-left:(@margin* -20 + 25);
+	/*-110*/
+    margin-top: (@margin * -10 - 10);
+	/*330*/
+    width: (@size * 30 + 30 );
+}
+
+/*--Cuerpo--*/
+#cuerpo
+{
+    background:@color_rosado_palido;
+	/*100*/
+	border-bottom: (@border * 20) solid #333;
+    /*aumentando la aparencia de un borde*/
+	/*4*/
+    border-width: (@border - 1);
+	/*2*/
+	border:(@border - 3) solid @color_naranja;
+	/*anchura*/
+	/*25*/
+    padding:(@padding * 5);
+
+}
+
+#usuario , #contrasena
+{
+   border-color: @color_naranja;
+}
+
+

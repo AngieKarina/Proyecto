@@ -1,0 +1,71 @@
+@color_naranja:#D2691E;
+@color_blanco:#FFFFFF;
+@color_amarillo:#e9bd15;
+@color_rojo: red;
+
+@border:5px;
+@font:10px;
+@letra:"Cooper Black";
+@margin:10px;
+@size:10px;
+
+
+body
+{
+font-family:@letra;
+}
+
+.agregar
+{
+   /*25*/
+   font-size:(@font * 2 + 5);
+   margin:auto;
+   /*350*/
+   margin-left:(@margin * 35);
+   /*-40*/
+   margin-top:(@margin * -4);
+   cursor:pointer;
+   font-family:"Cooper Black";
+}
+
+#nombreCliente , #segundoNombre,#ID,#telefono , #descripcion,#fecha,#monto , #nota
+{
+ /*30*/
+height:(@size * 3);
+ /*700*/
+width: (@size * 70);
+ /*17*/
+font-size:(@font + 7);
+font-family:@letra;
+}
+
+#cancelar
+{
+color:@color_rojo;
+font-family:@letra;
+
+}
+
+#save
+{
+background:green;
+color:@color_blanco;
+/*50*/
+height:(@size * 5);
+/*80*/
+width:(@size * 8);
+/*10*/
+border-radius: (@border * 2); 
+/*20*/
+font-size:(@font * 2);
+/*550*/
+margin-left:(@margin * 53);
+font-family:@letra;
+cursor:pointer; 
+
+}
+
+#link
+{
+text-decoration:none;
+}

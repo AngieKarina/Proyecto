@@ -1,0 +1,43 @@
+@color_gris: #585858;
+@color_naranja:#D2691E;
+@font:10px;
+@margin:10px;
+
+ul#enlaceImagenes li
+ {
+  /* las mostraremos una al lado de la otra */
+  display: inline; 
+  /*70*/
+  margin-left: (@margin * 7);
+  /*70*/
+  margin-right:(@margin * 7); 
+}
+
+ul#nombresImagenes li
+{
+ display: inline; 
+ /*Para hacer espacio entre imagenes o lo que sea*/
+  /*100*/
+  margin-left: (@margin * 10);
+  /*100*/
+  margin-right:(@margin * 10);
+  
+  color:@color_gris;
+  /*40*/
+  font-size: (@font * 4);
+  vertical-align:top;
+  
+}
+
+.enlaceImagen
+{
+  /* Quita lo subrayado del link */
+  text-decoration:none; 
+}
+
+#bienvenida
+{
+color:@color_naranja;
+text-align:center;
+}
+

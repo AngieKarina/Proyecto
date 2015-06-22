@@ -1,0 +1,86 @@
+@color_body_gris: #E6E6E6;
+@color_naranja:#D2691E;
+@color_blanco:#FFFFFF;
+@color_negro:#333;
+
+@border:5px;
+@font:10px;
+@letra:"Cooper Black";
+@margin:10px;
+@padding:5px;
+@size:10px;
+
+
+
+body
+{
+background: @color_body_gris;
+font-family:@letra;
+}
+
+ul#nombresMenu li 
+{
+  /* las mostraremos una al lado de la otra */
+  display: inline;
+  /*30*/
+  font-size: (@font * 3);
+  /*5*/
+  padding: @padding;
+  /*20*/
+  margin-left:(@margin * 2);
+  /*20*/
+  margin-right:(@margin * 2);
+  /*50*/
+  margin-top:(@margin * 5);
+}
+
+.clientes , .hambas, .invoices 
+{
+color: @color_blanco;
+text-decoration:none;  
+/*2*/
+border: (@border - 3) dashed @color_blanco;
+}
+
+
+#imagenMenu
+{
+display:scroll;
+position:fixed;
+/*50*/
+right:(@size * 5);
+top:1.35em;
+
+}
+
+#nombre
+{
+ vertical-align: top;
+ /*25*/
+ font-size:(@font * 2 + 5);
+}
+
+
+#cabecera
+{
+	/*4*/
+    border: (@border - 1) solid @color_negro;
+	/*8*/
+    padding-top: (@padding + 3);
+	/*90*/
+    height:(@margin * 9);
+	/*50*/
+    line-height:(@margin * 5);
+	color:@color_blanco;
+	background-color: @color_naranja;
+	border-color: @color_negro;
+	/*10*/
+	border-radius:(@border * 2); 
+}
+
+#home
+{
+cursor:pointer;
+text-decoration:none;
+color:@color_naranja;
+}

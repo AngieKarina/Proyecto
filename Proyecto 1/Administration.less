@@ -1,0 +1,118 @@
+@color_naranja:#D2691E;
+@color_blanco:#FFFFFF;
+@color_amarillo:#e9bd15;
+@color_verde: green;
+
+@border:5px;
+@font:10px;
+@letra:"Cooper Black";
+@margin:10px;
+@size:10px;
+@size_table:80%;
+
+
+body
+{
+font-family:@letra;
+}
+
+
+.activo
+{
+ /*3*/
+ border: (@border - 2) dashed @color_blanco;
+ background: @color_naranja;
+}
+
+#A
+{
+ color:@color_naranja;
+  /*3*/
+ border:(@border - 2) dashed @color_naranja;
+ background:@color_blanco;
+}
+
+
+#nombreAdministration
+{
+ vertical-align:top;
+}
+
+
+.new
+{
+background:@color_amarillo;
+color:@color_blanco;
+position:fixed;
+/*50*/
+right:(@size * 5);
+/*60*/
+height:(@size * 6);
+/*195*/
+width:(@size * 20 - 5);
+/*10*/
+border-radius:(@border * 2); 
+/*20*/
+font-size:(@font * 2 + 5);
+cursor:pointer;
+font-family:@letra;
+}
+
+ul#diseñoMedio li 
+{
+display: inline;
+color: @color_naranja;
+/*25*/
+margin-top:(@margin * 2 + 5);
+}
+
+#actions
+{
+/*25*/
+width:(@size * 2 + 5); 
+height:(@size * 2 + 5); 
+margin-left:(@margin * 2 + 5);
+}
+
+
+
+
+#link
+{
+text-decoration:none;
+color:@color_blanco;
+}
+
+.col
+{
+ background-color:@color_verde; 
+ color:@color_blanco;
+ /*25*/
+ font-size:(@font * 2 + 5);
+ /*65*/
+ height:(@size * 6 + 5);
+ /*Las orillas redondas*/
+ /*10*/
+ border-radius: (@border * 2); 
+}
+
+.bodyTable
+{
+border:none;
+/*10*/
+font-size:(@font * 2 + 5);
+font-family:@letra;
+}
+
+.table
+{
+margin: auto;
+/*80*/
+width:@size_table;
+height:@size_table;
+}
+
+#mensaje
+{
+color:@color_verde;
+}

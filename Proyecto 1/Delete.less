@@ -1,0 +1,54 @@
+@color_blanco:#FFFFFF;
+@color_rojo:red;
+@color_verde: green;
+
+@border:5px;
+@font:10px;
+@letra:"Cooper Black";
+@margin:10px;
+@size:10px;
+@size_table:80%;
+
+
+p
+{
+text-align:center;
+/*25*/
+font-size:(@font * 2 + 5);
+}
+
+
+
+.yes
+{
+background:@color_verde;
+color:@color_blanco;
+/*50*/
+height:(@size * 5);
+/*80*/
+width:(@size * 8);
+/*10*/
+border-radius:(@border * 2); 
+/*20*/
+font-size:(@font * 2);
+/*100*/
+margin-left:(@margin * 10);
+cursor:pointer;
+}
+
+.no
+{
+background:@color_rojo;
+color:@color_blanco;
+/*50*/
+height:(@size * 5);
+/*80*/
+width:(@size * 8);
+/*10*/
+border-radius: (@border * 2);
+/*20*/
+font-size: (@font * 2);;
+/*550*/
+margin-left:(@margin * 55);
+cursor:pointer;
+}
